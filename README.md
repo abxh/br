@@ -1,5 +1,5 @@
 # bc
-Backlight control script written in bash.
+Simple backlight control script written in bash.
 
 Essentially reimplements code from from the sections in the source below (but with notification support):
 - https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Brightness_up
