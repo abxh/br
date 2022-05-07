@@ -51,5 +51,5 @@ notify-send \
 	-i $NOTIFICATION_ICON \
 	-h $NOTIFICATION_TAG \
 	-t $NOTIFICATION_EXPIRE_TIME \
-	"Brightness" \
+	"Brightness:" \
 	$threshold_value
