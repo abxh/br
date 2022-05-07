@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Backlight Control Script.
 
-# Reimplemented code from:
-# https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Brightness_up
-# https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Brightness_down
+
+# Backlight Control Script.
+# Source(s):
+# https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Backlight_control
 
 BACKLIGHT_PATH='/sys/class/backlight/amdgpu_bl0'
 
