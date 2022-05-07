@@ -12,5 +12,5 @@ cp 90-backlight.rules /etc/udev/rules.d
 ```
 
 ## Source(s):
-- https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons
+- https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Backlight_control
 ```
