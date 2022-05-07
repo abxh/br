@@ -8,7 +8,7 @@ Add udev rule to modify brightness file.
 mkdir -p /etc/udev/rules.d
 cp 90-backlight.rules /etc/udev/rules.d
 ```
-and install `libnotify` for notification.
+and install `libnotify` and a [notification server](https://wiki.archlinux.org/title/Desktop_notifications#Standalone) for notifcation.
 ### Examples:
 ```
 ./br -i 5   # Increase brightness by 5
