@@ -28,7 +28,7 @@ NOTIFICATION_EXPIRE_TIME=2000
 
 current_value=$(< $BACKLIGHT_PATH/brightness)
 min_value=0
-max_value=$(< $BACKLIGHT_PATH/max_brightness)
+max_value=255 # $(< $BACKLIGHT_PATH/max_brightness)
 
 case $1 in
 	-i) 
