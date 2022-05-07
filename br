@@ -51,6 +51,5 @@ notify-send \
 	-i $NOTIFICATION_ICON \
 	-h $NOTIFICATION_TAG \
 	-t $NOTIFICATION_EXPIRE_TIME \
-	-h int:value:$((100*$threshold_value/$max_value)) \
 	"Brightness" \
 	$threshold_value
