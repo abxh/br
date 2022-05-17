@@ -1,15 +1,16 @@
 # br
 Simple brightness script with notification.
 
-## Quickstart:
-### Requirements:
+## Requirements:
 Add udev rule to modify brightness file.
 ```
 mkdir -p /etc/udev/rules.d
 cp 90-backlight.rules /etc/udev/rules.d
 ```
 and install `libnotify` and a [notification server](https://wiki.archlinux.org/title/Desktop_notifications#Standalone) for notifcation.
-### Examples:
+
+Restart your computer to ensure the udev rule is in effect.
+## Examples:
 ```
 ./br -i 5   # Increase brightness by 5
 ./br -d 5   # Decrease brightness by 5
