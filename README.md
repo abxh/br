@@ -18,4 +18,3 @@ and install `libnotify` and a [notification server](https://wiki.archlinux.org/t
 
 ## Source(s):
 - https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons#Backlight_control
-```
