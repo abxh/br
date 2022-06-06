@@ -12,9 +12,9 @@ and install `libnotify` and a [notification server](https://wiki.archlinux.org/t
 Restart your computer to ensure the udev rule is in effect.
 ## Examples:
 ```
-./br -i 5   # Increase brightness by 5
-./br -d 5   # Decrease brightness by 5
-./br -s 255 # Set brightness to 255.
+./br.sh -i 5   # Increase brightness by 5
+./br.sh -d 5   # Decrease brightness by 5
+./br.sh -s 255 # Set brightness to 255.
 ```
 
 ## Source(s):
